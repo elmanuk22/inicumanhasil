@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8"/>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        <link rel="stylesheet" 
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" 
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" 
+        crossorigin="anonymous" 
+        referrerpolicy="no-referrer"
+         />
+        <link rel="stylesheet" href="tentang.css"/>
+        <title>TENTANG KAMI</title>
+    </head>
+        <audio autoplay>
+            <source src="/Y2meta.app - Pembicaraan Rahasia Eben dan Elmanuk (128 kbps).mp3" type="audio/mp3"/>
+        </audio>
+        <header>
+            <div class="navbar">
+                <div class="logo"><a href="#"> AKU SI GANTENG</a></div>
+                <ul class="links">
+                    <li><a href="index6.html">Home</a></li>
+                    <li><a href="about">about</a></li>
+                    <li><a href="servis.html">services</a></li>
+                    <li><a href="contacT">contact</a></li>
+                </ul>
+                <a href="#" class="action_btn">Get Started</a>
+                <div class="toggle_btn">
+                    <i class="fa-solid fa-bars"></i>
+                </div>
+            </div>
+            <main>
+                <section id="hero">
+                    <h1>TIDAK PUNYA TENTANG <br />
+                    YANG PENTING ADA BUKTI NYA</h1>
+                </section>
+            </main>
+
+        </p>
+    </body>
+        <div class="dropdown_menu">
+            <li><a href="index6.html">Home</a></li>
+                <li><a href="tetang.html">about</a></li>
+                <li><a href="servis.html">services</a></li>
+                <li><a href="indexckontak.html">contact</a></li>
+                <li> <a href="#" class="action_btn">Get Started</a></li>
+            </div>    
+        </header>
+        <script>
+            const toggleBtn = document.querySelector('.toggle_btn')
+            const toggleBtnIcon = document.querySelector('.toggle_btn i')
+            const dropDownMenu = document.querySelector('.dropdown_menu')
+
+            toggleBtn.onclick = function () {
+                dropDownMenu.classList.toggle('open')
+                const isOpen = dropDownMenu.classList.contains('open')
+                
+            toggleBtnIcon.classList = isOpen
+                ? 'fa-solid fa-xmark'
+                : 'fa-solid fa-bars'
+            }
+        </script>
+    </body>
+</html>
